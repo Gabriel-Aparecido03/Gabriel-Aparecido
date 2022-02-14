@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Gabriel-Aparecido/static/css/main.f253d1a9.css",
-    "main.js": "/Gabriel-Aparecido/static/js/main.0a0aef26.js",
+    "main.js": "/Gabriel-Aparecido/static/js/main.d534ae0d.js",
     "static/media/perfil-photo.svg": "/Gabriel-Aparecido/static/media/perfil-photo.1544552e5e53b3cbdd2c2f62fb7b7170.svg",
     "index.html": "/Gabriel-Aparecido/index.html",
     "main.f253d1a9.css.map": "/Gabriel-Aparecido/static/css/main.f253d1a9.css.map",
-    "main.0a0aef26.js.map": "/Gabriel-Aparecido/static/js/main.0a0aef26.js.map"
+    "main.d534ae0d.js.map": "/Gabriel-Aparecido/static/js/main.d534ae0d.js.map"
   },
   "entrypoints": [
     "static/css/main.f253d1a9.css",
-    "static/js/main.0a0aef26.js"
+    "static/js/main.d534ae0d.js"
   ]
 }
