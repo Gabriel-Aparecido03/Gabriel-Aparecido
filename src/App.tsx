@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter,Routes,Route } from 'react-router-dom'
+import { HashRouter,Routes,Route } from 'react-router-dom'
 
 import './style/global.scss'
 
@@ -10,14 +10,14 @@ import { About } from './pages(pt-br)/About'
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter basename='/'>
       <Routes>
         <Route path='/' element={<LandingPtBr/>}/>
         <Route path='/about' element={<About/>}/>
         <Route path='/projects' element={<Projects/>}/>
         <Route path='/contact' element={<Contact/>}/>
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
