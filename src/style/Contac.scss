@@ -1,0 +1,58 @@
+#Contact {
+    background-color: #000;
+    color: #fff;
+}
+
+.intro-contact {
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    text-align: center;
+
+    h1 {
+        margin-top: auto;
+        margin-bottom: auto;
+
+        font-weight: 700;
+        font-size: 2rem;
+
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+}
+
+.contact-ways {
+    height: 100vh;
+
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 10%;
+
+    h1 {
+        margin-bottom: 1rem;
+    }
+
+    p { 
+        font-size: .9rem;
+        text-indent: 1.6rem;
+        line-height: 1.5rem;
+    }
+
+    .individual-media {
+        margin-top: 1rem;
+        a {
+            text-decoration: none;
+            font-weight: 700;
+            color: #060930;
+            font-size: 1rem;
+            line-height: 1.5rem;
+        }
+
+        p:hover {
+            cursor: pointer;
+            padding-left: 1rem;
+            transition: .5s;
+        }
+    }
+}
