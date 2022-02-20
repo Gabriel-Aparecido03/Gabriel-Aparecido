@@ -19,7 +19,7 @@ export function Contact() {
                 <div className="contact-ways">
                     <div className="contact-text-content">
                         <h1>Contato</h1>
-                        <p>Estou procurando por oportunidades de estágio na área de TI.Busco pela minha primeira expêriencia profissional.E de tal modo poder aprender e melhorar cada vez mais minhas habilidades.</p>
+                        <p>Estou procurando por oportunidades área de Tecnologia.</p>
                         <p>Se isso te pareceu agradável,por quê não trabalharmos juntos?</p>
                     </div>
                     <div className="social-media-content">
