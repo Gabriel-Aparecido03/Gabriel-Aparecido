@@ -1,0 +1,23 @@
+#ButtonBack {
+    position: fixed;
+    bottom: 2%;
+    right: 1%;
+
+    button {
+        border-radius: 5rem;
+        border: none;
+        padding: 1rem;
+
+        background-color: #00B4D8;
+        color: #fff;
+        font-weight: 700;
+
+        font-size: 1.7rem;
+    }
+
+    button:hover {
+        background-color: #00768d;
+        cursor: pointer;
+        transition: .8s;
+    }
+}

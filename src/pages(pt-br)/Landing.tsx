@@ -2,9 +2,10 @@ import React,{useState} from 'react'
 
 import {  useNavigate } from 'react-router-dom'
 
+
 import  '../style/Landing.scss'
 
-import perfilPhoto from '../assets/images/perfil-photo.svg'
+import perfilPhoto from '../assets/images/Design sem nome-1 1(3).svg'
 
 export function LandingPtBr() {
 
@@ -14,7 +15,6 @@ export function LandingPtBr() {
     const [isClicked,setIsClicked] = useState<boolean>(false)
 
     const navigate = useNavigate()
-
 
     const handleChangeIntro = (e:any) =>{
         setIsClicked(!isClicked)
@@ -73,7 +73,11 @@ export function LandingPtBr() {
         <div id="Landing" onClick={handleChangeIntro}>
             
             <div className="photo-content">
-                <img src={perfilPhoto} alt="minha foto de rosto" />
+                <img  
+                src={perfilPhoto} 
+                alt="minha foto de rosto" 
+               
+                />
             </div>
             <div className="text-content">
                 <div className="first-content">

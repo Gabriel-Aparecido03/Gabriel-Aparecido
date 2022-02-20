@@ -1,5 +1,7 @@
 import React from 'react'
 
+import { ButtonBack } from '../components/ButtonBack'
+
 import { Header } from '../components/Header'
 
 import '../style/About.scss'
@@ -7,6 +9,9 @@ import '../style/About.scss'
 export function About() {
     return (
         <div id="About">
+            <div className="button-field">
+                <ButtonBack/>
+            </div>
             <div className="header-content">
                 <Header/>
             </div>

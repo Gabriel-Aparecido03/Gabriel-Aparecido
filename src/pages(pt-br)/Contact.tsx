@@ -1,16 +1,20 @@
 import React from 'react'
 import '../style/Contac.scss'
 import { Header } from '../components/Header'
+import { ButtonBack } from '../components/ButtonBack'
 
 export function Contact() {
     return(
         <div id="Contact">
+             <div className="button-field">
+                <ButtonBack/>
+            </div>
             <div className="header-content-contact">
                 <Header/>
             </div>
             <div className="principal-content-contact">
                 <div className="intro-contact">
-                    <h1>Que tal trabalharmos juntos?</h1>
+                    <h1>Busco por oportunidades</h1>
                 </div>
                 <div className="contact-ways">
                     <div className="contact-text-content">
