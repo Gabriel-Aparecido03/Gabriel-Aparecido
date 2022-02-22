@@ -17,17 +17,17 @@
         font-weight: 700;
         font-size: 6rem;
 
-        margin-left: 1rem;
-        margin-right: 1rem;
+        padding-right: 4rem;
+        padding-left: 4rem;
     }
 }
 
 .contact-ways {
     height: 100vh;
 
-
+    text-align: center;
     h1 {
-        font-size: 5rem;
+        font-size: 3rem;
         margin-bottom: auto;
         padding-left: 3rem;
         padding-right: 3rem;
@@ -35,15 +35,16 @@
 
     p { 
         
-        font-size: 2.2rem;
+        font-size: 1.75rem;
         text-indent: 1.6rem;
         line-height: 2.5rem;
-
+        text-align: inherit;
         margin-left: 2rem;
         margin-right: 2rem;
     }
 
     .individual-media {
+        text-align: initial;
         margin-top: 1rem;
         a {
             text-decoration: none;

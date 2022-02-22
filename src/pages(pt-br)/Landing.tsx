@@ -19,7 +19,7 @@ export function LandingPtBr() {
     const handleChangeIntro = (e:any) =>{
         setIsClicked(!isClicked)
 
-        if(isClicked === true) {
+        if(isClicked === false) {
             setTextAbout('Sobre')
             setTextProjects('Projetos')
             setTextContact('Contatos')

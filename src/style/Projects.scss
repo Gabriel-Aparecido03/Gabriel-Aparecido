@@ -7,14 +7,17 @@
 
 .principal-content-project {
     
-    margin-left: 4rem;
-    margin-right: 4rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    
+    padding-top: 50%;
 
     .project-content:first-child {
         padding-bottom: 1;
     }
 
     .project-content {
+        
         padding-top: 5%;
         h1 {
             font-size: 3rem;

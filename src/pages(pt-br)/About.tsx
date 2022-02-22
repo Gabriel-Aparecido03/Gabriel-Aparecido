@@ -17,7 +17,7 @@ export function About() {
             </div>
             <div className="principal-content-about">
                 <div className="intro-content-about">
-                    <h1>Apaixonado por Tecnologias Web &amp; Mobile</h1>
+                    <h1>Ênfase por Tecnologias Web &amp; Mobile</h1>
                </div>
                <div className="about-text-content">
                    <h1>Sobre mim</h1>
