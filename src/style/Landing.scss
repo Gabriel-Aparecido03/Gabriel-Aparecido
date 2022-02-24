@@ -63,6 +63,35 @@
       opacity: 1;
     }
 }
+
+@-webkit-keyframes scale-up-ver-bottom {
+    0% {
+      -webkit-transform: scaleY(0.4);
+              transform: scaleY(0.4);
+      -webkit-transform-origin: 0% 100%;
+              transform-origin: 0% 100%;
+    }
+    100% {
+      -webkit-transform: scaleY(1);
+              transform: scaleY(1);
+      -webkit-transform-origin: 0% 100%;
+              transform-origin: 0% 100%;
+    }
+  }
+@keyframes scale-up-ver-bottom {
+    0% {
+      -webkit-transform: scaleY(0.4);
+              transform: scaleY(0.4);
+      -webkit-transform-origin: 0% 100%;
+              transform-origin: 0% 100%;
+    }
+    100% {
+      -webkit-transform: scaleY(1);
+              transform: scaleY(1);
+      -webkit-transform-origin: 0% 100%;
+              transform-origin: 0% 100%;
+    }
+  }
   
 #Landing {
     display: flex;  
@@ -95,7 +124,7 @@
     left: 5%;
 
 
-    color: #060930;
+    color: #1eff00;
 
     margin-left: .4rem;
     
@@ -119,18 +148,20 @@
 
         color: #fff;
 
-        -webkit-animation: scale-in-hor-left 1.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.3s both;
-        animation: scale-in-hor-left 1.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.3s both;
+        
+	    -webkit-animation: scale-up-ver-bottom 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.3s both;
+        animation: scale-up-ver-bottom 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.3s both;
     }
 
     .second-content {
-        -webkit-animation: scale-in-hor-left 1.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.6s both;
-        animation: scale-in-hor-left 1.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.6s both;
+       
+	    -webkit-animation: scale-up-ver-bottom 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.3s both;
+        animation: scale-up-ver-bottom 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.3s both;
     }
 
     .third-content {
-        -webkit-animation: scale-in-hor-left 1.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.9s both;
-        animation: scale-in-hor-left 1.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.9s both;
+	    -webkit-animation: scale-up-ver-bottom 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.3s both;
+        animation: scale-up-ver-bottom 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.3s both;
     }
 }
 

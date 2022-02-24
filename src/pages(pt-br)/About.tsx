@@ -23,15 +23,19 @@ export function About() {
                    <h1>Sobre mim</h1>
                    <h3>Me chamo Gabriel Aparecido,tenho 18 anos.Moro em Sorocaba,interior de São Paulo.Sou um entusiasta de tecnologias web &amp; mobile.</h3>
                     <p>
+                        <br/>
                         No meu dia a dia gosto de usar tecnologias como:Typescript,ReactJS,Firebase,React Native e Sass.
                     </p>
                     <p>
+                        <br/>
                         Comecei a estudar programação com 12 anos,aprendendo lógica de programação e algoritmo em VisualAlg,depois fiz projeto simples no Scratch e também fazendo jogos simples no Construct 2.Porém com meus 14 anos decidi focar no vestibular,e desse mode deixando de lado a área da programação.Porém no ano de 2019,voltei a estuda tecnologia.
                     </p>
                     <p>
+                        <br/>
                         Amo o sentimento de desafio.Não sou uma pessoa de recuar ao um bom desafio,gosto de me sentir,por tal motivo sempre busco por projetos que possam ser úteis e que gerem dificultades.Sempre busco cada vez me tornar mais resiliente e paciente.
                     </p>    
                     <p>
+                        <br/>
                         Gosto de desenvolver conhecimentos em várias áreas,já li livros como :Uma Breve História do Tempo do Stephen Hawking,Incognito do David Eagleman,Rápido e Devagar do David Eagleman,Mochileiros das Galáxias.
                     </p>
                </div>
