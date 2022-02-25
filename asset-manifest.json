@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Gabriel-Aparecido/static/css/main.3f1369a1.css",
-    "main.js": "/Gabriel-Aparecido/static/js/main.8d5de232.js",
+    "main.css": "/Gabriel-Aparecido/static/css/main.9d61ae96.css",
+    "main.js": "/Gabriel-Aparecido/static/js/main.3c25ddef.js",
     "static/media/Design sem nome-1 1(3).svg": "/Gabriel-Aparecido/static/media/Design sem nome-1 1(3).09ac2bfdd4cbf5a5f9ebe5ee913072f8.svg",
     "index.html": "/Gabriel-Aparecido/index.html",
-    "main.3f1369a1.css.map": "/Gabriel-Aparecido/static/css/main.3f1369a1.css.map",
-    "main.8d5de232.js.map": "/Gabriel-Aparecido/static/js/main.8d5de232.js.map"
+    "main.9d61ae96.css.map": "/Gabriel-Aparecido/static/css/main.9d61ae96.css.map",
+    "main.3c25ddef.js.map": "/Gabriel-Aparecido/static/js/main.3c25ddef.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f1369a1.css",
-    "static/js/main.8d5de232.js"
+    "static/css/main.9d61ae96.css",
+    "static/js/main.3c25ddef.js"
   ]
 }
