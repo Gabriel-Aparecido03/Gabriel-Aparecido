@@ -1,12 +1,14 @@
 import React from 'react'
 
 import { ButtonBack } from '../components/ButtonBack'
-
+import jsPDF from 'jspdf'
 import { Header } from '../components/Header'
 
 import '../style/About.scss'
 
 export function About() {
+
+
     return (
         <div id="About">
             <div className="button-field">
@@ -28,20 +30,31 @@ export function About() {
                     </p>
                     <p>
                         <br/>
-                        Comecei a estudar programação com 12 anos,aprendendo lógica de programação e algoritmo em VisualAlg,depois fiz projeto simples no Scratch e também fazendo jogos simples no Construct 2.Porém com meus 14 anos decidi focar no vestibular,e desse mode deixando de lado a área da programação.Porém no ano de 2019,voltei a estuda tecnologia.
+                        Comecei a estudar programação com 12 anos,aprendendo lógica de programação e algoritmo em VisualAlg,depois fiz projetos simples no Scratch e também fazendo jogos simples no Construct 2.Porém com meus 14 anos decidi focar no vestibular,e desse modo deixando de lado a área da programação.Porém no ano de 2019,voltei a estuda tecnologia.
                     </p>
                     <p>
                         <br/>
-                        Amo o sentimento de desafio.Não sou uma pessoa de recuar ao um bom desafio,gosto de me sentir,por tal motivo sempre busco por projetos que possam ser úteis e que gerem dificultades.Sempre busco cada vez me tornar mais resiliente e paciente.
+                        Amo o sentimento de desafio.Não sou uma pessoa de recuar ao um bom desafio,por tal motivo sempre busco por projetos que possam ser úteis e que gerem dificultades.Sempre busco cada vez me tornar mais resiliente e paciente.
+                    </p>
+                    <p>
+                    <br/>
+                        Conhecimentos:<br/>
+                        <br/>
+                        
+                        Inglês - avançado <br/>
+                        Alemão - básico <br/>
+                        Javascript - intermediário <br/>
+                        Css - intermediário <br/>
+                        Html - intermediário <br/>
+                        React - intermediário <br/>
+                        React Native - básico <br/>
+                        Firebase - básico <br/>
+                        MySql - básico <br/>
                     </p>    
-                    <p>
-                        <br/>
-                        Gosto de desenvolver conhecimentos em várias áreas,já li livros como :Uma Breve História do Tempo do Stephen Hawking,Incognito do David Eagleman,Rápido e Devagar do David Eagleman,Mochileiros das Galáxias.
-                    </p>
                </div>
                <div className="pdf-content">
                    <h1>Para obter mais detalhes baixe currículo em pdf</h1>
-                   <a href='../../Currículo.pdf' download>Baixar pdf</a>
+                   <a href='https://drive.google.com/file/d/1JQs4s2yHrWD4psnbXseiVnl6FVIOgyxD/view?usp=sharing' target={'_blank'} download={'true'}>Ver Currículo pdf</a>
                </div>
             </div>
 
