@@ -34,7 +34,7 @@ export function Topbar() {
                     <h2>menu</h2>
                     <Link 
                     className='item' 
-                    to="intro-content" 
+                    to="Landing" 
                     spy={false} 
                     smooth={false}
                     onClick={handleOpen}
