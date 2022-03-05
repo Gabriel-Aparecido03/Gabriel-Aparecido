@@ -54,6 +54,7 @@ export function LandingPtBr() {
 
                     <div className="project">
                         <h1>AnyDoubted</h1>
+                        <p>É um projeto para a criação de salas de bate papo online. </p>
                         <div className="buttons-content">
                             <button className='view-github'><a href="https://github.com/Gabriel-Aparecido03/AnyDoubted">Ver no Github</a></button>
                         </div>
@@ -61,6 +62,7 @@ export function LandingPtBr() {
 
                     <div className="project">
                         <h1>GetEducators</h1>
+                        <p>É um projeto para a alunos achar professores particulares.</p>
                         <div className="buttons-content">
                             <button className='view-github'><a href="https://github.com/Gabriel-Aparecido03/GetEducators">Ver no Github</a></button>
                         </div>
@@ -68,6 +70,7 @@ export function LandingPtBr() {
 
                     <div className="project">
                         <h1>LetsMove</h1>
+                        <p>É um projeto para pessoas que passam muito tempo no computador,propondo exércios. </p>
                         <div className="buttons-content">
                             <button className='view-github'><a href="https://github.com/Gabriel-Aparecido03/LetsMove">Ver no Github</a></button>
                         </div>
@@ -75,6 +78,7 @@ export function LandingPtBr() {
 
                     <div className="project">
                         <h1>Todo List React</h1>
+                        <p>Um projeto para aprender user React.</p>
                         <div className="buttons-content">
                             <button className='view-github'><a href="https://github.com/Gabriel-Aparecido03/Simple-Todo-React">Ver no Github</a></button>
                         </div>
@@ -82,6 +86,7 @@ export function LandingPtBr() {
 
                     <div className="project">
                         <h1>Copy HBO Max</h1>
+                        <p>Um projeto para melhorar minhas habilidades de HTML e CSS .</p>
                         <div className="buttons-content">
                             <button className='view-github'><a href="https://github.com/Gabriel-Aparecido03/Clone-HBOMAX">Ver no Github</a></button>
                         </div>
@@ -89,6 +94,7 @@ export function LandingPtBr() {
 
                     <div className="project">
                         <h1>Copy Nubank</h1>
+                        <p>Um projeto para melhorar minhas habilidades de HTML e CSS .</p>
                         <div className="buttons-content">
                             <button className='view-github'><a href="https://github.com/Gabriel-Aparecido03/CopyStyleNubank">Ver no Github</a></button>
                         </div>
@@ -96,8 +102,17 @@ export function LandingPtBr() {
                     
                     <div className="project">
                         <h1>Letmeask(feito c/ Rocketseat)</h1>
+                        <p>Um projeto feito junto com a rocketseat. .</p>
                         <div className="buttons-content">
                             <button className='view-github'><a href="https://letmeask-66b5f.web.app">Ver site</a></button>
+                        </div>
+                    </div>
+
+                    <div className="project">
+                        <h1>Projeto de Semáforo com Arduino.</h1>
+                        <p>Um projeto simples de arduino com a ideia de fazer um semáforo de cruzamento,feito em grupo.</p>
+                        <div className="buttons-content">
+                            <button className='view-github'><a href="https://youtu.be/LtzjSG1ToFA">Ver no Youtube</a></button>
                         </div>
                     </div>
 
