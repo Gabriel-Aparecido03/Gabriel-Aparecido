@@ -1,3 +1,33 @@
+
+ @-webkit-keyframes scale-up-ver-bottom {
+    0% {
+      -webkit-transform: scaleY(0.4);
+              transform: scaleY(0.4);
+      -webkit-transform-origin: 0% 100%;
+              transform-origin: 0% 100%;
+    }
+    100% {
+      -webkit-transform: scaleY(1);
+              transform: scaleY(1);
+      -webkit-transform-origin: 0% 100%;
+              transform-origin: 0% 100%;
+    }
+  }
+  @keyframes scale-up-ver-bottom {
+    0% {
+      -webkit-transform: scaleY(0.4);
+              transform: scaleY(0.4);
+      -webkit-transform-origin: 0% 100%;
+              transform-origin: 0% 100%;
+    }
+    100% {
+      -webkit-transform: scaleY(1);
+              transform: scaleY(1);
+      -webkit-transform-origin: 0% 100%;
+              transform-origin: 0% 100%;
+    }
+  }
+  
 #Landing {
     display: block;
 }
@@ -5,6 +35,13 @@
 .intro-content {
     height: 100vh;
     display: block;
+
+    
+    .scale-up-ver-bottom{
+        -webkit-animation: scale-up-ver-bottom 0.5s linear both;
+        animation: scale-up-ver-bottom 0.5s linear both;
+    }
+   
     
     .text-content {
         margin-left: auto;
@@ -56,7 +93,7 @@
         text-align: center;
         img {
             text-align: center;
-            width: 75%;
+            width: 65%;
             border-radius: 1.5rem;
         }
     }
@@ -71,6 +108,11 @@
 .about-me-content {
     height: 100vh;
     display: block;
+     
+    .scale-up-ver-bottom{
+        -webkit-animation: scale-up-ver-bottom 0.5s linear both;
+        animation: scale-up-ver-bottom 0.5s linear both;
+    }
     .text-content {
         width: 80%;
         margin-left: auto;
@@ -131,6 +173,11 @@
 }
 
 .projects-content {
+     
+    .scale-up-ver-bottom{
+        -webkit-animation: scale-up-ver-bottom 0.5s linear both;
+        animation: scale-up-ver-bottom 0.5s linear both;
+    }
     margin-bottom: 25%;
     .title {
         
@@ -200,6 +247,12 @@
 }
 
 .contact-content {
+     
+    .scale-up-ver-bottom{
+        -webkit-animation: scale-up-ver-bottom 0.5s linear both;
+        animation: scale-up-ver-bottom 0.5s linear both;
+    }
+
     .title {
         font-size: 1.25rem;
         font-weight: 400;
