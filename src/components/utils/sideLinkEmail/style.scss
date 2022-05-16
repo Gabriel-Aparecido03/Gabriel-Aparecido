@@ -1,0 +1,35 @@
+.email-content {
+    display: none;
+}
+
+@media (min-width:1050px) {
+
+    .email-content {
+        display: block;
+        position: fixed;
+        right: 2%;
+        bottom: 0%;
+        text-orientation: upright;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        a {
+            writing-mode: sideways-rl;
+            font-size: .65rem;
+            text-decoration: none;
+            letter-spacing: .1rem;
+            color: #30475E;
+            font-weight: 600;
+            
+        }
+        hr {
+            margin-top: 1%;
+            writing-mode: sideways-rl;
+            height: 15vh;
+            width: 0;
+            color: #30475E;
+        }   
+    }
+
+}

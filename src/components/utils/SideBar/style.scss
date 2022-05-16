@@ -1,0 +1,135 @@
+#Topbar {
+    display: block;
+}
+
+.container-top-bar {
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: .3rem;
+    .text-content-top-bar {
+        display: none;
+    }
+    height: 8vh;
+
+    .hamburger-container {
+        position: absolute;
+        right: .3rem;
+        top: .3rem;
+        z-index: 9;
+    }
+
+    .image-container-top-bar {
+        img {
+            margin-top: .5rem;
+            margin-left: .5rem;
+            max-width: 75%;
+        }
+    }
+}
+
+.side-bar-container {
+    height: 100vh;
+    width: 50%;
+
+    right: 0;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    background-color: #30475E;
+
+    z-index: 1;
+
+    .topics-side-bar-container {
+        width: 80%;
+        margin-inline: auto;
+
+        li {
+            margin-top: 15%;
+            color: #fff;
+            font-size: 1.1rem;
+            list-style: none;
+            font-weight: 400;
+        }
+    }
+
+    .button-resume-container {
+        margin-inline: auto;
+        margin-top: 6%;
+        display: flex;
+        justify-content: center;
+
+        a {
+            color: #30475E;
+            text-decoration: none;
+        }
+    }
+
+    button {
+        width: 40vw;
+        border: #222831 2px solid;
+        background-color: #fff;
+        color: #30475E;
+        font-weight: 400;
+        font-size: .9rem;
+        border-radius: .2rem;
+        height: 5vh;
+    }
+}
+
+.background-translucid {
+    width: 50%;
+    content: "";
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+
+    background: rgba(255,255,255,0.7);
+    -webkit-backdrop-filter: blur(13px);
+    backdrop-filter: blur(13px);
+    border: 1px solid rgba(255,255,255,0.35);
+}
+
+@media (min-width:1050px) {
+    .side-bar-container {
+        display: none !important;
+    }
+    
+    .hamburger-container {
+        display: none !important;
+    }
+
+    .container-top-bar {
+        .text-content-top-bar {
+            width: 60%;
+            display: block;
+
+            ul {
+                margin-block: auto;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                text-align: center;
+            }
+
+            li {
+                list-style: none;
+                font-weight: 600;
+                color: #30475E;
+            }
+
+            li:hover {
+                cursor: pointer;
+                color: #222831;
+                transition: .6s;
+                font-size: 1.2rem;
+            }
+        }
+    }
+}

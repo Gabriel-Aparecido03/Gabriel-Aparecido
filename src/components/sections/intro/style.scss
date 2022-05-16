@@ -1,0 +1,165 @@
+$principal-text-and-span--color: #30475E;
+$sub-text--color: #222831;
+$text--color : #818181;
+
+.intro-content {
+    height: 100vh;
+    .text-intro-content {
+        width: 90%;
+        margin-inline: auto;
+        display: flex;
+        height: 100%;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .button-intro-content {
+        margin-inline:auto;
+
+        button {
+            padding: .5rem;
+            font-size: .8rem;
+            background: none;
+            border: 2px solid $principal-text-and-span--color;
+            width: 50vw;
+            border-radius: .1rem;
+
+            a {
+                color: #30475E;
+                text-decoration: none;
+            }
+        }
+    }
+
+    .text-content {
+        h3 {
+            font-size: 1rem;
+            font-weight: 400;
+        }
+        h1 {
+            color: $principal-text-and-span--color;
+            font-size: 1.55rem;
+            font-weight: 900;
+        }
+
+        h2 {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: #222831;
+        }
+
+        p {
+            margin-top: 5%;
+            font-size: .75rem;
+            color: $text--color;
+        }
+
+        span {
+            color: $principal-text-and-span--color;
+        }
+
+    }
+
+    .my-skills-content {
+        margin-top: 5%;
+        ul {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+
+        li {
+            list-style: none;
+            color: $principal-text-and-span--color;
+            font-size: .8rem;
+            font-weight: 600;
+        }
+
+        li:before {
+            margin-right: .2rem;
+            content: '-';
+        }
+    }
+}
+
+@media (min-width:650px) {
+    .intro-content {
+        .text-content {
+
+            h3 {
+                font-size: 1.5rem;
+            }
+            h1 {
+                font-size: 2.2rem;
+            }
+            h2 {
+                font-size: 1.7rem;
+            }
+            p{
+                margin-top: 2%;
+                font-size: 1rem;
+            }
+        }
+        .my-skills-content {
+            li {
+                font-size: .9rem;
+            }
+        }
+    }
+}
+
+@media (min-width:1050px) {
+    .intro-content {
+        width: 80%;
+        margin-inline: auto;
+        .text-content {
+            width: 80%;
+
+            h3 {
+                font-size: 1.5rem;
+            }
+            h1 {
+                font-size: 2rem;
+            }
+            h2 {
+                font-size: 1.75rem;
+            }
+            p{
+                font-size: 1rem;
+            }
+        }
+
+        .my-skills-content {
+            li {
+                font-size: .95rem;
+            }
+        }
+
+        .button-intro-content {
+            margin: 0;
+            button {
+                margin-top: 0;
+                font-size: 1rem;
+                padding: 1rem;
+                width: 20vw;
+                color: $principal-text-and-span--color;
+                text-decoration: none;
+            }
+
+            a {
+                text-decoration: none;
+                color: #30475E;
+            }
+
+            button:hover {
+                cursor: pointer;
+                background-color: $principal-text-and-span--color;
+                color: #fff;
+                transition: .5s;
+
+                a {
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
