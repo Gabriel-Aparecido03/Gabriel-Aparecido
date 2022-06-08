@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Gabriel-Aparecido/static/css/main.5594dbfd.css",
+    "main.css": "/Gabriel-Aparecido/static/css/main.103438db.css",
     "main.js": "/Gabriel-Aparecido/static/js/main.1e240905.js",
     "static/media/Desktop - 2.svg": "/Gabriel-Aparecido/static/media/Desktop - 2.4469ee465f6bdfe02fec405c3f272406.svg",
     "static/media/perfil-photo.svg": "/Gabriel-Aparecido/static/media/perfil-photo.1544552e5e53b3cbdd2c2f62fb7b7170.svg",
@@ -8,11 +8,11 @@
     "static/media/arduino.jpg": "/Gabriel-Aparecido/static/media/arduino.baa93ee4e866d9572d0f.jpg",
     "static/media/react.png": "/Gabriel-Aparecido/static/media/react.ef20e673b9282f8f30fd.png",
     "index.html": "/Gabriel-Aparecido/index.html",
-    "main.5594dbfd.css.map": "/Gabriel-Aparecido/static/css/main.5594dbfd.css.map",
+    "main.103438db.css.map": "/Gabriel-Aparecido/static/css/main.103438db.css.map",
     "main.1e240905.js.map": "/Gabriel-Aparecido/static/js/main.1e240905.js.map"
   },
   "entrypoints": [
-    "static/css/main.5594dbfd.css",
+    "static/css/main.103438db.css",
     "static/js/main.1e240905.js"
   ]
 }
